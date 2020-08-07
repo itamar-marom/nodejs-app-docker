@@ -1,7 +1,7 @@
 pipeline {
   environment {
     // Docker registry information, please replace 'docker_hub_account' with your own.
-    registry = "docker_hub_account/nodejs-app-docker"
+    registry = "maromitamar/nodejs-app-docker"
     registryCredential = 'dockerhub'
     // create an environment to save docker image informations
     dockerImage = ''
